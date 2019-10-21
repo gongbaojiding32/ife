@@ -1,0 +1,11 @@
+.information p, .contact p {
+    display: inline;
+    padding-right: 30px;
+}
+p span {
+    padding-right: 10px;
+    font-weight: bold;
+}
+.ability span, .education span, .item span {
+    display: flex;
+}
