@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: antiquewhite;
 }
+
 .container {
     width: 750px;
     height: 900px;
@@ -9,6 +10,7 @@ body {
     border-style: solid;
     background-color: white;
 }
+
 .title {
     width: 25%;
     height: 100%;
@@ -16,6 +18,11 @@ body {
     margin-right: 20px;
     background-color: lightskyblue;
 }
+
+.title p {
+    text-align: center;
+}
+
 h1 {
     margin-top: 80px;
     text-align: center;
@@ -23,20 +30,27 @@ h1 {
     font-size: 2.5em;
     letter-spacing: .1em;
 }
+
 h2 {
     padding-top: 14px;
     padding-bottom: 14px;
     letter-spacing: .1em;
 }
-.information p, .contact p {
+
+.information p,
+.contact p {
     display: inline;
     padding-right: 30px;
 }
+
 p span {
     padding-right: 10px;
     font-weight: bold;
     letter-spacing: .1em;
 }
-.ability span, .education span, .item span {
+
+.ability span,
+.education span,
+.item span {
     display: flex;
 }

@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Personal Resume</title>
-        <link rel="stylesheet" type="text/css" href="style_2.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Resume</title>
+    <link rel="stylesheet" type="text/css" href="style_2.css">
+</head>
+
+<body>
     <div class="container">
         <div class="title">
             <h1>简历</h1>
+            <p id="sayHi"></p>
         </div>
         <div class="information">
             <div class="titles">
                 <h2>基本信息<button id="msg" type="button" onclick="message1()">点击查看特殊信息</button></h2>
-                
+
             </div>
             <p id="name"><span>姓名</span>张三</p>
             <p class="space"><span>性别</span>男</p>
@@ -30,7 +33,7 @@
         <div class="ability">
             <div class="titles">
                 <h2>能力描述<button id="ablt" type="button" onclick="message2()">点击查看特殊能力</button></h2>
-                
+
             </div>
             <p><span>技术能力</span>熟练掌握HTML,CSS,Javascript</p>
             <p><span>综合能力</span>良好的沟通，主动积极，努力勤奋</p>
@@ -38,7 +41,7 @@
         <div class="education">
             <div class="titles">
                 <h2>教育经历<button id="edu" type="button" onclick="message3()">点击查看特殊经历</button></h2>
-                
+
             </div>
             <p><span>本科</span>百度前端技术学院小薇学院</p>
             <p><span>研究生</span>百度前端技术学院大斌学院</p>
@@ -54,15 +57,28 @@
     </div>
 
     <script>
-        function message1(){
+        function message1() {
             document.getElementById("name").innerHTML = ("曾用名：张二");
         }
-        function message2(){
+
+        function message2() {
             console.log("并没有什么能力！");
         }
-        function message3(){
-            document.getElementById("demo").innerHTML = ("<span>高中</span>"+"百度前端一中");
+
+        function message3() {
+            document.getElementById("demo").innerHTML = ("<span>高中</span>" + "百度前端一中");
+        }
+        var hi = document.getElementById('sayHi');
+        var date = new Date();
+        var h = date.getHours();
+        if (h < 12) {
+            hi.innerHTML = '早上好';
+        } else if (h < 18) {
+            hi.innerHTML = '下午好';
+        } else {
+            hi.innerHTML = '晚上好';
         }
     </script>
-    </body>
+</body>
+
 </html>
