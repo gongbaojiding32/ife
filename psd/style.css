@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.ife {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/* 第一部分 */
+
+.header {
+    height: 990px;
+    color: #ffffff;
+    background: url(images/Background1.png) no-repeat top center;
+}
+
+.header .content {
+    width: 970px;
+    padding-top: 219px;
+    margin: 0 auto;
+}
+
+.title {
+    height: 320px;
+    text-align: center;
+}
+
+.title h1 {
+    width: 770px;
+    height: 126px;
+    margin: 0 auto;
+    font-family: Myriad Pro Regular;
+    font-size: 62px;
+}
+
+.title p {
+    padding: 0 100px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.nav {
+    height: 240px;
+    border: 1px solid #555351;
+    text-align: center;
+}
+
+.nav h2 {
+    padding-top: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.nav p {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.3;
+}
+
+.account {
+    margin-top: 40px;
+}
+
+.account input {
+    width: 290px;
+    height: 48px;
+    color: #ffffff;
+    text-indent: 2em;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #555351;
+    margin-right: 30px;
+}
+
+.account button {
+    width: 125px;
+    height: 50px;
+}
+
+
+/* 第二部分 */
+
+.boatload {
+    height: 712px;
+}
+
+.boatload .guide {
+    width: 700px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.guide p {
+    font-size: 14px;
+    padding-top: 87px;
+}
+
+.guide h2 {
+    font-size: 42px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.section {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.section div {
+    float: left;
+    width: 545px;
+}
+
+.section h3 {
+    font-size: 20px;
+    padding-bottom: 23px;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+.iphone,
+.check {
+    padding-top: 70px;
+}
+
+.iphone img {
+    float: left;
+    padding-left: 36px;
+    padding-right: 26px;
+    padding-bottom: 50px;
+}
+
+.check img {
+    float: left;
+    padding-left: 84px;
+    padding-right: 22px;
+    padding-bottom: 62px;
+}
+
+.pencil,
+.setting {
+    padding-top: 75px;
+}
+
+.pencil img {
+    float: left;
+    padding-left: 21px;
+    padding-right: 23px;
+    padding-bottom: 50px;
+}
+
+.setting img {
+    float: left;
+    padding-left: 79px;
+    padding-right: 19px;
+    padding-bottom: 50px;
+}
+
+
+/* 第三部分 */
+
+.news {
+    position: relative;
+    height: 799px;
+    color: #ffffff;
+    background: url(images/Background2.png) no-repeat top center;
+}
+
+.news .left {
+    position: absolute;
+    left: 312px;
+    float: left;
+    width: 640px;
+}
+
+.left h2 {
+    width: 438px;
+    font-size: 42px;
+    font-weight: 100;
+    padding-top: 181px;
+}
+
+.left p {
+    width: 438px;
+    font-size: 18px;
+    margin-top: 39px;
+    line-height: 30px;
+}
+
+.left button {
+    width: 241px;
+    height: 61px;
+    margin-right: 30px;
+    margin-top: 56px;
+    color: #ffffff;
+    border: 1px solid #6e7370;
+    background-color: transparent;
+}
+
+.news .right {
+    float: right;
+    padding-top: 103px;
+}
+
+
+/* 第四部分 */
+
+.product {
+    height: 580px;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.product .title3 {
+    padding-top: 98px;
+    padding-bottom: 80px;
+}
+
+.title3 h2 {
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.try {
+    width: 968px;
+    margin: 0 auto;
+}
+
+.try div {
+    float: left;
+    width: 266px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.try .portland {
+    margin-right: 0;
+}
+
+.try div p {
+    margin-top: 36px;
+}
+
+
+/* 第五部分 */
+
+.nature {
+    height: 1000px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.nature .top {
+    width: 971px;
+    margin: 0 auto;
+    padding-top: 114px;
+}
+
+.nature .bottom {
+    width: 971px;
+    margin: 80px auto;
+}
+
+.nature h3 {
+    width: 301px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 55px;
+}
+
+.nature p {
+    width: 302px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.nature .top img {
+    float: left;
+    margin-right: 99px;
+}
+
+.nature .top h3 {
+    float: right;
+}
+
+.nature .top p {
+    float: right;
+}
+
+.nature .bottom img {
+    float: right;
+    margin-left: 71px;
+}
+
+.nature .bottom .text {
+    float: left;
+}
+
+.nature .bottom h3 {
+    width: 330px;
+}
+
+
+/* 第六部分 */
+
+.crew {
+    height: 1005px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.crew .title6 {
+    width: 705px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.crew .title6 h2 {
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.crew .title6 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.crew .photo {
+    width: 971px;
+    margin: 60px auto;
+}
+
+.crew .photo .person1 {
+    float: left;
+    width: 470px;
+    height: 340px;
+    background: url(images/person1.png) no-repeat top center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.person1 h4 {
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 100px;
+}
+
+.person1 p {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 11px;
+    margin-bottom: 38px;
+}
+
+.person1 div {
+    float: left;
+    width: 54px;
+    height: 54px;
+    border: 1px solid #6d6d6d;
+    margin-left: 35px;
+    border-radius: 27px;
+    line-height: 56px;
+}
+
+.person1 .one {
+    margin-left: 120px;
+}
+
+.crew .photo .person2 {
+    float: right;
+    width: 470px;
+    height: 340px;
+    background: url(images/person2.png) no-repeat top center;
+}
+
+.crew .photo .person3 {
+    float: left;
+    width: 470px;
+    height: 340px;
+    background: url(images/person3.png) no-repeat top center;
+}
+
+.crew .photo .person4 {
+    float: right;
+    width: 470px;
+    height: 340px;
+    background: url(images/person4.png) no-repeat top center;
+}
+
+
+/* 第七部分 */
+
+.contact {
+    height: 702px;
+}
+
+.contact .write {
+    float: left;
+    width: 468px;
+    height: 558px;
+    margin-top: 72px;
+    margin-left: 315px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.write h4 {
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 42px;
+    padding-bottom: 40px;
+}
+
+.write input {
+    width: 370px;
+    height: 50px;
+    border: 1px solid #d4d3d3;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 2em;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.write textarea {
+    width: 370px;
+    height: 142px;
+    border: 1px solid #d4d3d3;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 2em;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.write button {
+    width: 370px;
+    height: 50px;
+    border: 1px solid #d4d3d3;
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.write .massage {
+    height: 142px;
+}
+
+.address {
+    float: left;
+    width: 375px;
+    margin-left: 126px;
+}
+
+.address h2 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: normal;
+    padding-top: 152px;
+    margin-bottom: 25px;
+}
+
+.address p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 62px;
+}
+
+.address img {
+    float: left;
+}
+
+.address h5 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 43px;
+    margin-bottom: 30px;
+}
+
+.address .add {
+    margin-bottom: 0;
+}
+
+
+/* 第八部分 */
+
+.footer {
+    height: 410px;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.footer h4 {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 46px;
+    opacity: 0.5;
+}
+
+.footer .enjoy p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+.footer .enjoy img {
+    margin-right: 27px;
+}
+
+.footer .learn {
+    float: left;
+    margin-left: 213px;
+    margin-top: 80px;
+}
+
+.footer .about {
+    float: left;
+    margin-left: 167px;
+    margin-top: 80px;
+}
+
+.footer .support {
+    float: left;
+    margin-left: 145px;
+    margin-top: 80px;
+}
+
+.footer .enjoy {
+    width: 320px;
+    float: left;
+    margin-left: 214px;
+    margin-top: 80px;
+}
